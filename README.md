@@ -59,14 +59,14 @@ That’s it. Anyone who clones the repo can follow these steps and get a fully w
 
 ### Troubleshooting
 - Ollama not found or model missing:
-  Install Ollama, then run: ollama pull llama3.2:3b
-  Check API: (Invoke-WebRequest http://127.0.0.1:11434/api/tags).Content
+  > Install Ollama, then run: ollama pull llama3.2:3b
+  > Check API: (Invoke-WebRequest http://127.0.0.1:11434/api/tags).Content
 
 - Backend says “python-multipart required”:
-  pip install python-multipart in the backend venv
+  > pip install python-multipart in the backend venv
 
 - httpx or others missing:
-  pip install httpx (or re-run the backend pip install line)
+  > pip install httpx (or re-run the backend pip install line)
 
 - CORS blocked:
-  CORS is enabled in backend/main.py for dev
+  > CORS is enabled in backend/main.py for dev
