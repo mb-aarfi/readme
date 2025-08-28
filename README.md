@@ -57,7 +57,7 @@ Frontend runs at the URL shown (usually http://localhost:5173)
 That’s it. Anyone who clones the repo can follow these steps and get a fully working local instance with AI negotiation using a free local LLM.
 
 
-### Troubleshooting
+### Troubleshooting (If any issues occured like:)
 1. Ollama not found or model missing:
   - Install Ollama, then run: ollama pull llama3.2:3b
   - Check API: (Invoke-WebRequest http://127.0.0.1:11434/api/tags).Content
