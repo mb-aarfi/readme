@@ -1,3 +1,5 @@
+## How to set up this project in your laptop:
+
 ### 0) Prerequisites
 - Node.js 18+ and npm
 - Python 3.10+ (with pip)
