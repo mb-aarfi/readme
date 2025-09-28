@@ -41,6 +41,10 @@ In the backend terminal (with venv active):
 $env:OLLAMA_MODEL="llama3.2:3b"
 $env:OLLAMA_BASE_URL="http://127.0.0.1:11434"
 
+python -m uvicorn main:app --reload
+```
+or
+```
 uvicorn main:app --reload
 ```
 
